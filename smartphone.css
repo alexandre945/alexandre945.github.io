@@ -1,0 +1,18 @@
+nave#menu lu {
+    margin-top: 50px;
+}
+img#img {
+    width: 100%;
+    height: 100%;
+
+}
+a.whatsapplink {
+    margin-left: 500px;
+}
+body {
+    min-width: 300px; max-width: 640px;
+    min-height: 300px; max-height: 640px;
+}
+footer#rodape {
+    align-items: center;
+}

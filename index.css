@@ -11,8 +11,8 @@
     
 }
 nav#menu ul li :hover {
-      background-color: navy;  
-     
+      background-color: navy; 
+      
      
 }
 
@@ -128,8 +128,9 @@ img#imag {
 }
 
 p.xandy {
-    margin-bottom-10px;
+    margin-top: 10px;
     color: blue;
+    padding-bottom: 5px;
 }
 
 

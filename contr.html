@@ -1,3 +1,9 @@
+<?php
+$mensagem=0;
+@$mensagem= $_REQUEST['mensagem'];
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -19,7 +25,42 @@
         </nav>
 
     </header>
-    <form method="POST" id="fcontato" action="#" oninput="calc_total();">
+    <?php if($mensagem==enviado):?>
+    <h1>mensagem enviada, agradecemos seu contato</h1>
+  <?php else: ?>
+<form action="email.php" method="post">
+   <fieldset>
+     <legend>envio de sua sugestâo</legend>
+     <label form="assunto">
+       <input type="text" placeholder="digite o assunto" name="assunto">   
+     </label><br><br>
+     <label for="nome">
+         Nome
+       <input type="text" placeholder="digite seu nome completo" name="nome">
+
+     </label><br><br>
+
+     <label for="email">
+         Email
+         <input type="email" placeholder="digite seu E-mail" name="email">
+
+     </label><br><br>
+     <label for="mensagen">
+         Mensagen<br>
+         <textarea name="mensagem" cols="30" rows="10" placeholder="digite aqui sua mensagem referente ao assunto">
+
+         </textarea>
+     </label><br><br>
+     <input type="submit" name="enviar" value="Enviar">
+
+   </fieldset>
+</form>
+  <?php endif; ?>
+
+
+
+    
+    <!--<form method="POST" id="fcontato" action="#" oninput="calc_total();">
         <fieldset id="usuario">
      <legend>Identificação do Usuário</legend> 
             <p> Nome fantasia: <input type="text" name="nome" id="cnome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
@@ -29,7 +70,7 @@
         <input type="radio" name="tsexo" id="cmasc"/> <label for="cmasc"> Masculino</label><br/>
         <input type="radio" name="tsexo" id="cfem"/> <label for="cfem">Feminino</label> 
         <p> DatadeNascimento<input type="date"name="tnasc" id="cnasc" /></p>
-        </fieldset>-->
+        </fieldset>
     </fieldset>
         
          <fieldset id="endereco">
@@ -69,7 +110,7 @@
         <fieldset id="pedido">
             <legend> Quero contratar um Funcionario</legend>
         <!--<p> <input type="checkbox" name="tped" id="cped"/> Gostaria de adquirir um Google Glass quando disponível</p>-->
-        <!--<p> Cor: <input type="color" name="tcolor" id="ccolor" value="#0000ff"></p>-->
+        <!--<p> Cor: <input type="color" name="tcolor" id="ccolor" value="#0000ff"></p>
             <p> Quantidade de garçons:<input type="number" name="tqtd" id="cqtd" min="0" max="20" value="0"></p>
             <p>Quantidade de Diarias:<input type="number" name="tdiaria" id="cdiaria" placeholder="QTD diarias" value="0"></p>
             <p> Preço Total: R$ <input type="text" name="ttot" id="ctot" placeholder="Total a Pagar" readonly/></p>
@@ -80,7 +121,7 @@
     
     </form>
     
-    <!-- <img id="foto" src="imagens/istockphoto-928877560-1024x1024.jpg" alt=""> -->
+    <!-- <img id="foto" src="imagens/istockphoto-928877560-1024x1024.jpg" alt=""> 
         
     <script>
 
@@ -92,7 +133,7 @@
             document.getElementById('ctot').value = tot;
         }
     
-    </script>
+    </script>-->
     
 </body>
 </html>

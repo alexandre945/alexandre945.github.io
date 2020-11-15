@@ -185,6 +185,10 @@ ul#foto li#foto01:hover {
         background-position: 0px 0px;
         background-size: 200px 200px;
     }
+    ul#foto li#foto36:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
     
     
 
@@ -397,6 +401,12 @@ ul#foto li#foto34 {
 }
 ul#foto li#foto35 {
     background: url('imagens/IMG_20200101_170539_303.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto36 {
+    background: url('imagens/20200225_230618_HDR.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;

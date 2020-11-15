@@ -1,7 +1,4 @@
-<?php
-$mensagem=0;
-@$mensagem= $_REQUEST['mensagem'];
-?>
+
 
 
 <!DOCTYPE html>
@@ -25,9 +22,7 @@ $mensagem=0;
         </nav>
 
     </header>
-    <?php if($mensagem==enviado):?>
-    <h1>mensagem enviada, agradecemos seu contato</h1>
-  <?php else: ?>
+    
 <form action="email.php" method="post">
    <fieldset>
      <legend>envio de sua sugestâo</legend>

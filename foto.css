@@ -16,3 +16,388 @@ body#fot {
 nav#menu {
     margin-top: -120px;
 }
+ul#foto {
+    width: 700px;
+    margin:0 auto;
+    padding: 50px;
+    /* overflow: hidden */
+    list-style:none;
+    margin-top: 100px;
+}
+ul#foto li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgb(0,0,0,.4);
+    -webkit-transition: all 0.6s ease-in;
+
+}
+ul#foto li:hover {
+    -webkit-transform: scale(1.5);
+}
+ul#foto li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+    
+    ul#foto li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+    ul#foto li#foto03:hover {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    
+    ul#foto li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+    
+    ul#foto li#foto05:hover {  
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+    ul#foto li#foto06:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto07:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto08:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto09:hover {  
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+    ul#foto li#foto10:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto11:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto12:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto13:hover {  
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+    }
+    
+    ul#foto li#foto14:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto15:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    
+    ul#foto li#foto16:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto17:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto18:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto19:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto20:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+   
+    ul#foto li#foto21:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto22:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto23:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto24:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto25:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto26:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    
+    ul#foto li#foto27:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto28:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto29:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto30:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto31:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto32:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto33:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto34:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    ul#foto li#foto35:hover {  
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+    }
+    
+    
+
+    ul#foto li#foto01 {
+    background: url('imagens/20200101_014522_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;   
+    background-color: #ffffff;
+
+}
+ul#foto li#foto02 {
+    background: url('imagens/20191109_190031_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto03 {
+    background: url('imagens/20191224_212007_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto04 {
+    background: url('imagens/20200101_014359_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto05 {
+    background: url('imagens/20200101_014522_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto06 {
+    background: url('imagens/20200106_125038_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto07 {
+    background: url('imagens/20200126_190114_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto08 {
+    background: url('imagens/IMG-20171129-WA0010.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto09 {
+    background: url('imagens/20200101_014522_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto10 {
+    background: url('imagens/20200101_014522_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto11 {
+    background: url('imagens/20200101_014522_HDR.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto12 {
+    background: url('imagens/IMG-20171129-WA0010.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto13 {
+    background: url('imagens/IMG-20190122-WA0002.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto14 {
+    background: url('imagens/IMG_20170702_172330104.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto15 {
+    background: url('imagens/IMG_20170708_213645026.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto16 {
+    background: url('imagens/IMG_20171023_230613104.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto17 {
+    background: url('imagens/IMG_20171224_213339242.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto18 {
+    background: url('imagens/IMG_20171224_213343913.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto19 {
+    background: url('imagens/IMG_20171224_220446257.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto20 {
+    background: url('imagens/IMG_20171225_020226430.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto21 {
+    background: url('imagens/IMG_20171231_214613371.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto22 {
+    background: url('imagens/IMG_20171231_214808997.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto23 {
+    background: url('imagens/IMG_20171231_214820833.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto24 {
+    background: url('imagens/IMG_20180603_140906635.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto25 {
+    background: url('imagens/IMG_20180716_064342262.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#foto li#foto26 {
+    background: url('imagens/IMG_20180805_172530268.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto27 {
+    background: url('imagens/IMG_20180922_172101046_HDR-EFFECTS.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto28 {
+    background: url('imagens/IMG_20190525_223420855.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto29 {
+    background: url('imagens/IMG_20190601_185126606.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+
+ul#foto li#foto30 {
+    background: url('imagens/IMG_20190601_185204106.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto31 {
+    background: url('imagens/IMG_20190601_215251259.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto32 {
+    background: url('imagens/IMG_20190703_190647999.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto33 {
+    background: url('imagens/IMG_20190814_190243878.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto34 {
+    background: url('imagens/IMG_20190814_190258636.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
+ul#foto li#foto35 {
+    background: url('imagens/IMG_20200101_170539_303.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #ffffff;
+}
